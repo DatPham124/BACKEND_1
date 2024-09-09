@@ -32,4 +32,3 @@ exports.findAllFavorite = (req, res) => {
     res.send({message: "findAllFavorite handler"});
     next(err);
 };
-
